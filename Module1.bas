@@ -6,13 +6,13 @@ Sub 連続検証()
         For 分割数 = 1 To 10
             If Int(100000 / 分割数) = 100000 / 分割数 Then
                 .Range("分割数") = 分割数
-                Call 配列分読み書き検証
+                Call 配列分割読み書き検証
             End If
         Next
     End With
     MsgBox "検証完了"
 End Sub
-Sub 配列分読み書き検証()
+Sub 配列分割読み書き検証()
     Dim 分割数 As Long, 回 As Long, 行 As Long, 列 As Long, 値 As Long
     Dim 始時 As Date, 終時 As Date
     With Sheets("配列分割テスト")
