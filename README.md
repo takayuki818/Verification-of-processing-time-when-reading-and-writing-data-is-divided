@@ -4,6 +4,6 @@
 （自身のPC環境下では）すべて20～22秒とほぼ変化がありませんでした。
 
 ※処理時間自体はApplicationの以下のプロパティ設定で高速化される余地があります。  
-　'.Calculation = xlCalculationManual'  
-　'.EnableEvents = False'  
-　'.ScreenUpdating = False'  
+　`.Calculation = xlCalculationManual`  
+　`.EnableEvents = False`  
+　`.ScreenUpdating = False`  
